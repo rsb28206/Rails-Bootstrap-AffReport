@@ -1,0 +1,5 @@
+env: flex
+runtime: ruby
+entrypoint: bundle exec rails s -p 8080 -b '0.0.0.0'
+env_variables:
+  RAILS_ENV: production

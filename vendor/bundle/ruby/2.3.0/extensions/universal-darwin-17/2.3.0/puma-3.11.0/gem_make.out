@@ -1,0 +1,24 @@
+current directory: /Users/9035_r_ikeda/Developer/adcolony-report/vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/ext/puma_http11
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20171220-6139-os2g07.rb extconf.rb
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+creating Makefile
+
+current directory: /Users/9035_r_ikeda/Developer/adcolony-report/vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/9035_r_ikeda/Developer/adcolony-report/vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+
+current directory: /Users/9035_r_ikeda/Developer/adcolony-report/vendor/bundle/ruby/2.3.0/gems/puma-3.11.0/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20171220-6139-1jgyzdh/puma
